@@ -1,0 +1,9 @@
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box {
+    width: 350px;
+}

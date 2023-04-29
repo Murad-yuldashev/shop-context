@@ -1,0 +1,16 @@
+.menu {
+    background-color: brown !important;
+}
+
+.css-w0jld1 .MuiInputBase-root .MuiInputBase-input {
+    width: 700px !important;
+}
+
+.menu .css-pg9d5l-MuiInputBase-root .MuiInputBase-input {
+    width: 100% !important;
+}
+
+.menu .basketBox {
+    transform: translateX(3500px);
+    transition: 2s;
+}

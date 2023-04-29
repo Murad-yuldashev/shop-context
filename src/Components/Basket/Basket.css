@@ -1,0 +1,87 @@
+.basket {
+    width: 500px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #000000;
+    z-index: 111;
+    padding: 50px 60px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.basket h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.basket .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.basket .box .images {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+}
+
+.basket .box .text h2 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.basket .box .text p {
+    font-size: 12px;
+}
+
+.basket .box .setting button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: #fff;
+    color: #000000;
+    font-size: 14px;
+    margin: 0 5px;
+}
+
+.basket .bottomBasket {
+    width: 100%;
+    border-top: 2px solid #ffffff;
+    padding-top: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.basket .bottomBasket h4 {
+    font-size: 18px;
+}
+
+.basket .bottomBasket h4 span {
+    color: #a52a2a;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+.basket .bottomBasket button {
+    padding: 10px 30px;
+    border: none;
+    background: #fff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.basket svg {
+    display: block;
+    text-align: right;
+    margin-left: auto;
+}

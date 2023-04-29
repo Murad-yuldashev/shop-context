@@ -1,0 +1,20 @@
+.cards {
+    margin: 50px 0;
+}
+
+.cards .MuiPaper-root {
+    margin: 20px 0;
+}
+
+.cards img {
+    height: 200px;
+    object-fit: contain;
+}
+
+.settings {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
